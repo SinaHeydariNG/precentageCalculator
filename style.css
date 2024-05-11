@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, pink, #499950);
+}
+
+
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #bbb;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+}
+
+.precentage-calclator {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+input {
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    height: 30px;
+    margin-top: 10px;
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, #e0e0e0, #00ffea);
+    outline: none;
+    padding: 10px;
+    color: #333;
+    font-weight: 700px;
+    font-size: 16px;
+}
+
+
+input::-webkit-slider-thumb {
+    appearance: none;
+    width: 45px;
+    height: 45px;
+    border: 2px solid honeydew;
+    border-radius: 50%;
+
+}
+
+
+#precentagValue {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.my-btn {
+    margin: 20px auto;
+    width: 40%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: #00ffea;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
